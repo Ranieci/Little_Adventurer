@@ -1,0 +1,1381 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/staging' branch; Version is '6000.4.4f1 (360f97ecca93) revision 3542935'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'tr' Physical Memory: 14188 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rabia" at "2026-04-25T16:42:32.6787884Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-04-25T16:42:32Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.4.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker9
+-projectPath
+C:/Users/rabia/OneDrive/Masaüstü/rabiacilginunitygame/rabiacilginunitygame_adventurer
+-logFile
+Logs/AssetImportWorker9.log
+-srvPort
+62802
+-licensingIpc
+LicenseClient-rabia
+-force-d3d12
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/rabia/OneDrive/Masaüstü/rabiacilginunitygame/rabiacilginunitygame_adventurer
+C:/Users/rabia/OneDrive/Masaüstü/rabiacilginunitygame/rabiacilginunitygame_adventurer
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [3496]  Target information:
+
+Player connection [3496]  * "[IP] 192.168.1.155 [Port] 0 [Flags] 2 [Guid] 465674891 [EditorId] 465674891 [Version] 1048832 [Id] WindowsEditor(7,Carmilla) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [3496] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [3496] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 5.59 ms, found 4 plugins.
+Initialize engine version: 6000.4.4f1 (360f97ecca93)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/rabia/OneDrive/Masaüstü/rabiacilginunitygame/rabiacilginunitygame_adventurer/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:          NVIDIA
+    VRAM:            3965 MB
+    App VRAM Budget: 3370 MB
+    Driver:          32.0.15.9621
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-rabia"
+[Licensing::IpcConnector] LicenseClient-rabia channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rabia-6000.4.4" at "2026-04-25T16:42:34.0524373Z"
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002473 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.622 seconds
+Domain Reload Profiling: 1234ms
+	BeginReloadAssembly (175ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (95ms)
+	LoadAllAssembliesAndSetupDomain (270ms)
+		LoadAssemblies (170ms)
+		AnalyzeDomain (257ms)
+			TypeCache.Refresh (255ms)
+				TypeCache.ScanAssembly (237ms)
+	FinalizeReload (624ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (70ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (177ms)
+			ProcessInitializeOnLoadMethodAttributes (140ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              8a46eb0434fb46fea13dfa75fff0efe7
+  Correlation Id:          48ad81060670be6cd35055be7e117786
+  External correlation Id: 4797453666576552914
+  Machine Id:              d21FMT1xiNXu7zt9KBEPZT1/MAs=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-rabia-6000.4.4" (connect: 0.00s, validation: 0.00s, handshake: 1.30s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rabia-6000.4.4-notifications" at "2026-04-25T16:42:35.3499957Z"
+[Licensing::Module] Licensing Background thread has ended after 2.67s
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18966806831356-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 3.01 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 3.05 ms, found 4 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.277 seconds
+Domain Reload Profiling: 2437ms
+	BeginReloadAssembly (243ms)
+		DisableScriptedObjects (6ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (116ms)
+	LoadAllAssembliesAndSetupDomain (738ms)
+		LoadAssemblies (534ms)
+		AnalyzeDomain (340ms)
+			TypeCache.Refresh (221ms)
+				TypeCache.ScanAssembly (203ms)
+			BuildScriptInfoCaches (100ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1277ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (214ms)
+			ProcessInitializeOnLoadAttributes (624ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (12ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.99 ms, found 4 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6540 unused Assets / (5.5 MB). Loaded Objects now: 7366.
+Memory consumption went from 155.1 MB to 149.6 MB.
+Total: 10.046100 ms (FindLiveObjects: 0.713100 ms CreateObjectMapping: 0.455500 ms MarkObjects: 6.110600 ms  DeleteObjects: 2.763900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 6552.701257 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Scenes/Main Demo Scene
+  importAddress: Guid(9dacfa848fbab744d97f62a8f85c2aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Scenes/Main Demo Scene using Guid(9dacfa848fbab744d97f62a8f85c2aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5531fabdf96d52c20dec2230bdc41ea0') in 0.0211481 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bbc518f2f49b45b1d7f4be0eead5dacb DependenciesID=2859c403ed062017d08d9ee8320748ce StaticDependenciesID=561d3f8e235f99bc8ea5a435dc1960c8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059726 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Scenes/Main Demo Scene/Main Demo Scene PP.asset
+  importAddress: Guid(f2b61e17075170447ba23132fe76d8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Scenes/Main Demo Scene/Main Demo Scene PP.asset using Guid(f2b61e17075170447ba23132fe76d8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7d99bc9cddd341e06cc204469cd5998f') in 0.0048734 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a423bf8d673a55c6a947f265e43254b4 DependenciesID=f7ebe1c175c079ebaf42c9ac1832cba4 StaticDependenciesID=f743abf3d104eefb2fee24bd4854b96b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.456536 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Scenes/Showcase Demo Scene/OcclusionCullingData.asset
+  importAddress: Guid(06b9a2de21ecf03428a691c4ec71cc06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Scenes/Showcase Demo Scene/OcclusionCullingData.asset using Guid(06b9a2de21ecf03428a691c4ec71cc06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e5205c14bb3b943b26b71995b5eaf35a') in 0.0159689 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c7d3b66b82359a55098cb4350826ab25 DependenciesID=e4e8b014bbf4ec2929a1ba4c8fca0515 StaticDependenciesID=83401b07eebad3a4855f1f828fedb525 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 923.921917 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Trees/Spruce 1.fbx
+  importAddress: Guid(af68f6de6ee33a841b3b0572f41ddcad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Trees/Spruce 1.fbx using Guid(af68f6de6ee33a841b3b0572f41ddcad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Trees/Spruce 1.fbx)
+ -> (Import Result ID: '344e126b6d97833ebbb52f392f1b6738') in 0.8946435 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f9883279c3c9ce005aae238d9b69aad0 DependenciesID=8a90e3d4f36b82ca574d802236bd2a11 StaticDependenciesID=7145a6ac1112ccb42bcc0b7b7e5372f2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 2.74 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.109 seconds
+Domain Reload Profiling: 5083ms
+	BeginReloadAssembly (1038ms)
+		DisableScriptedObjects (107ms)
+		CreateAndSetChildDomain (228ms)
+	RebuildCommonClasses (162ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (94ms)
+	LoadAllAssembliesAndSetupDomain (2668ms)
+		LoadAssemblies (2797ms)
+		AnalyzeDomain (389ms)
+			TypeCache.Refresh (15ms)
+			BuildScriptInfoCaches (354ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1109ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (181ms)
+			ProcessInitializeOnLoadAttributes (499ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
+			AfterProcessingInitializeOnLoad (9ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 2.40 ms, found 4 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6538 unused Assets / (5.7 MB). Loaded Objects now: 7417.
+Memory consumption went from 164.9 MB to 159.2 MB.
+Total: 13.281200 ms (FindLiveObjects: 0.761600 ms CreateObjectMapping: 0.528100 ms MarkObjects: 8.893100 ms  DeleteObjects: 3.096400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2754.584748 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Trees/Spruce 1.fbx
+  importAddress: Guid(af68f6de6ee33a841b3b0572f41ddcad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Trees/Spruce 1.fbx using Guid(af68f6de6ee33a841b3b0572f41ddcad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Trees/Spruce 1.fbx)
+ -> (Import Result ID: '79b4d8aec6e187c98865bfefa5d7b1b1') in 0.8812785 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a89facaaa7a344a31af6d142b95aa4c8 DependenciesID=036df94d1eca032a349dfa037270af4e StaticDependenciesID=7145a6ac1112ccb42bcc0b7b7e5372f2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.667790 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Materials/Bush Leaves.mat
+  importAddress: Guid(143c45bbb5ae694479b1566df4a4f9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Materials/Bush Leaves.mat using Guid(143c45bbb5ae694479b1566df4a4f9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a63b8c15bfba2c9a7c6425400188bfec') in 0.1242481 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7223b92deae97fac0928353fc33c6540 DependenciesID=89261db29f593c7c175998a41778cec7 StaticDependenciesID=5965aea13c84b76c5de448eb2a0a93d6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Materials/Flower.mat
+  importAddress: Guid(e9427a28f20c6f24083418e09b767a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Materials/Flower.mat using Guid(e9427a28f20c6f24083418e09b767a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '747ff0c04fdc648f133137d3b51d6811') in 0.0495729 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d525c5e5b4fa5033ebc0e6bcc4e1bb75 DependenciesID=94aca0f5f0157acf90ecd3a5e29e2db9 StaticDependenciesID=969a7010844ba25fe60a526dc31178da 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Materials/Flower Leaf.mat
+  importAddress: Guid(be6a741af13d50f41b8befdd255bf584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Materials/Flower Leaf.mat using Guid(be6a741af13d50f41b8befdd255bf584) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6df0013e5aa3454e8fb7dc864c8793e5') in 0.0555007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f852ddd5a4ec66d3ad8094b9c8ee15fe DependenciesID=99abb7bf028f56f797cf4d40482a7d88 StaticDependenciesID=fccd0c03e51c162df6d092a2ac11c8fa 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Materials/Water.mat
+  importAddress: Guid(94ea32e4f0f6cab4e98928aadb7d9992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Materials/Water.mat using Guid(94ea32e4f0f6cab4e98928aadb7d9992) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a1d494af98be808e00584b4ed007a357') in 0.0372956 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d57a5b4de7c6c7ab40bd22bb3acfacfd DependenciesID=ea6a4157ea6402b18be1387c6ab8580a StaticDependenciesID=1904f2b52b1fa93bc8f0dc705ee9b367 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 2.37 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.996 seconds
+Domain Reload Profiling: 1943ms
+	BeginReloadAssembly (245ms)
+		DisableScriptedObjects (23ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (575ms)
+		LoadAssemblies (461ms)
+		AnalyzeDomain (217ms)
+			TypeCache.Refresh (7ms)
+			BuildScriptInfoCaches (198ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (997ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (218ms)
+			ProcessInitializeOnLoadAttributes (469ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
+			AfterProcessingInitializeOnLoad (9ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 2.78 ms, found 4 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6539 unused Assets / (5.4 MB). Loaded Objects now: 7473.
+Memory consumption went from 165.2 MB to 159.8 MB.
+Total: 10.776800 ms (FindLiveObjects: 1.059100 ms CreateObjectMapping: 0.967400 ms MarkObjects: 5.903100 ms  DeleteObjects: 2.846000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 2.14 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.957 seconds
+Domain Reload Profiling: 1838ms
+	BeginReloadAssembly (216ms)
+		DisableScriptedObjects (7ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (537ms)
+		LoadAssemblies (417ms)
+		AnalyzeDomain (220ms)
+			TypeCache.Refresh (8ms)
+			BuildScriptInfoCaches (200ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (958ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (165ms)
+			ProcessInitializeOnLoadAttributes (472ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (10ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 2.37 ms, found 4 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6538 unused Assets / (5.5 MB). Loaded Objects now: 7476.
+Memory consumption went from 168.4 MB to 162.9 MB.
+Total: 11.641100 ms (FindLiveObjects: 0.915100 ms CreateObjectMapping: 1.015000 ms MarkObjects: 6.243100 ms  DeleteObjects: 3.466000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 451.428194 seconds.
+  path: Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Art/Meshes
+  importAddress: Guid(04fdc7ff9513ea045abf9550206a50de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Art/Meshes using Guid(04fdc7ff9513ea045abf9550206a50de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0fc694d1763a4e28b356b0aa36913a31') in 0.0794899 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=675e1ec7b451e42a53fd61dded2acb8b DependenciesID=6421438146b445e1600f425b0295fcb4 StaticDependenciesID=b9bd1d493ff4505eb7c4de37f83e0982 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FullAssets/EnemyAssets/Skeleton/Materials
+  importAddress: Guid(eb1155c94f54d10488563e378503f436) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/EnemyAssets/Skeleton/Materials using Guid(eb1155c94f54d10488563e378503f436) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f5c1b053ce404f35467c4e838c0d28c4') in 0.0138006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c553cd3dcfce3958cda56480aaaf46a6 DependenciesID=89571568a131a6fd497da11047d5735e StaticDependenciesID=63c2dc0932dc41fed76d01eb1872a91d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Grass
+  importAddress: Guid(845e10ad668ffe048a54225ce561d0c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Grass using Guid(845e10ad668ffe048a54225ce561d0c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0aeb047d5a1a337e0f02bd5a65a18f22') in 0.0134131 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1ae6163062487532d7e597305cd1becb DependenciesID=039b4e34667f0ac13a70df33a3854497 StaticDependenciesID=10ca291e32155f806ba3c7eaac1985de 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Terrain/Terrain.asset
+  importAddress: Guid(383c52c5dd0b6304e950169f371ab10e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Terrain/Terrain.asset using Guid(383c52c5dd0b6304e950169f371ab10e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f7f578ffb120d06cd5c0283994a6bd9b') in 0.1467006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f92c54d36d26542eb00daf92b6312bb3 DependenciesID=fd6d781dfa2b3c7d9c270eb1b80aa7fe StaticDependenciesID=87fbd1760bbbb26cfbfe1fb8e86f5745 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Trees/Spruce 2.fbx
+  importAddress: Guid(9813ed0b3eddc834a8202f421870eeb2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Trees/Spruce 2.fbx using Guid(9813ed0b3eddc834a8202f421870eeb2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Trees/Spruce 2.fbx)
+ -> (Import Result ID: '149dd9f7835ad30fc003a7b404d0a6ea') in 0.0611726 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=394652091fe2a055de60557c1ec65334 DependenciesID=2c118b8c36d3dee9eefc975ba7bab32e StaticDependenciesID=0c5b35a7e4a1b631e564d4cd97700eb1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Materials/Grass.mat
+  importAddress: Guid(9f69fd57086ff5046914a8b32350a1cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Materials/Grass.mat using Guid(9f69fd57086ff5046914a8b32350a1cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9b0c39629ed75b0bd2250f1cbf921b43') in 0.0483005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1da95296fedb81257680ea07c13763eb DependenciesID=989ddfdafae89ff08b7cb040f552ad85 StaticDependenciesID=41ed3aa2160b4c843621998f696359ff 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Log/Log.prefab
+  importAddress: Guid(4b21e533c871dba4bb5c56ba22947be8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Log/Log.prefab using Guid(4b21e533c871dba4bb5c56ba22947be8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '52177c93a68550d8741cb22a0c339690') in 0.0591367 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a2f64b0817c5942a4a6050e2d20b5c38 DependenciesID=b6cf17aa2941f1e87ed28f9cc2ec1cd6 StaticDependenciesID=7895fc489eab76c91a90b5323792ea29 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Grass/Grass.fbx
+  importAddress: Guid(b64664a15804c6a40b649fb352af0896) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Grass/Grass.fbx using Guid(b64664a15804c6a40b649fb352af0896) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Grass/Grass.fbx)
+ -> (Import Result ID: '8db99862e0491bff8e96b186222e6ff4') in 0.0272769 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=97b68184dab7a14cb8dac9f04698bde2 DependenciesID=152fb2008460c4c3165bfacd638aa550 StaticDependenciesID=c2dcf6c81194f6b2fc5ea02efd0f8302 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/FullAssets/EnemyAssets/Skeleton/Materials/SceletonVersion1_m.mat
+  importAddress: Guid(8828101d1ea790c45a9f2ed424c3a48f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/EnemyAssets/Skeleton/Materials/SceletonVersion1_m.mat using Guid(8828101d1ea790c45a9f2ed424c3a48f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4295a217a39ab62e53766ae7cae57283') in 0.0415696 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d35d119ae79ca1a8c4a7c1f6aed1cbd7 DependenciesID=5f196ced100279f6224afe70cfce37ea StaticDependenciesID=28936d4d4b200ffaa9b6db7d02e8285c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FullAssets/EnemyAssets/Skeleton/Materials/SceletonVersion2_m.mat
+  importAddress: Guid(c7a88dd37d774684eb5131b4e8437d41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/EnemyAssets/Skeleton/Materials/SceletonVersion2_m.mat using Guid(c7a88dd37d774684eb5131b4e8437d41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bbf6eaf2a283a18631d32600e521ea4d') in 0.0352431 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cf70298698919e5531b5f33f33f44ca7 DependenciesID=be1e66a787935fbc3d817a7aa5a9bcce StaticDependenciesID=0d43547fde0ba30c81b580d26fe87c65 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Standard Rocks/Standard Rock 1.prefab
+  importAddress: Guid(9503c1c726bcf56458f5766baf8bb524) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Standard Rocks/Standard Rock 1.prefab using Guid(9503c1c726bcf56458f5766baf8bb524) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a41233702982f1584d829659bddf2760') in 0.0345859 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c700bf314635409e5d8e84c8b2c3a143 DependenciesID=42b7bd64d198666fe17cb8ec68fe7860 StaticDependenciesID=3e31a39fd4a7fcc7ab9f7f2f339bd787 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Standard Rocks/Standard Rock 3.prefab
+  importAddress: Guid(05a887701af30614f819e1db804d10a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Standard Rocks/Standard Rock 3.prefab using Guid(05a887701af30614f819e1db804d10a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8df5d45fd8a22d9572f3a77954dc8512') in 0.0380903 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=607cb335ace65fea529a95a84639988e DependenciesID=25f8193394d7852d498be45f6d85e7bf StaticDependenciesID=51205c2d8ece8d844fc73c5950557116 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Mountain/Mountain.prefab
+  importAddress: Guid(81d960fe44e3f6b46bcda7b24988e254) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Mountain/Mountain.prefab using Guid(81d960fe44e3f6b46bcda7b24988e254) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f5bee07a74e8f9e3d563a826793a569d') in 0.0470484 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ce662e12d378172772b91d5f5cb67ca7 DependenciesID=2ea5bf477eaf012a1f192e6b0af84cb9 StaticDependenciesID=28912535cfccd762cb2afc2f3121eb0a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Trees/Spruce 1.fbx
+  importAddress: Guid(af68f6de6ee33a841b3b0572f41ddcad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Trees/Spruce 1.fbx using Guid(af68f6de6ee33a841b3b0572f41ddcad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Trees/Spruce 1.fbx)
+ -> (Import Result ID: 'd4a9c686e98cf82c4b3d07bff2ab63a9') in 0.0356628 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=591c6d4002c05300beff15875e901ba0 DependenciesID=9cb59a929063092c0e0cc99114762ea6 StaticDependenciesID=8e5bbca759878c9d0f95b61f70846790 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Branch
+  importAddress: Guid(1e852b24dc53670408af1b99aaf7f67c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Branch using Guid(1e852b24dc53670408af1b99aaf7f67c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c557acfa62c1645fb9435da6859fcb4a') in 0.0163846 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8705e0e676694ae98525aa50396fa936 DependenciesID=1a9a1a34b98bf9bd5e28b32b74e177c7 StaticDependenciesID=845a3a1dfa38da3267dae782be33181b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FullAssets/Map
+  importAddress: Guid(92dd6967fe278c84ba6ee7e8ad685072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FullAssets/Map using Guid(92dd6967fe278c84ba6ee7e8ad685072) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '226bf3778263e8e2641f04538de13817') in 0.0008466 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aaffd2bf08fd67595ff5034cc6ac2dad DependenciesID=ebb4cbdc858a6663cc71120f5ea935f3 StaticDependenciesID=5f9a60ec52da3afeeb94bd6c0a09ae5e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Scenes/Showcase Demo Scene/OcclusionCullingData.asset
+  importAddress: Guid(06b9a2de21ecf03428a691c4ec71cc06) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Scenes/Showcase Demo Scene/OcclusionCullingData.asset using Guid(06b9a2de21ecf03428a691c4ec71cc06) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd13d0f7ed0bb149f7e32b1cf80046265') in 0.0390666 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8cfa9eb08413a7c7976e454d1e34d39d DependenciesID=42b7278a0e74d8efc5b66e8ff1542c58 StaticDependenciesID=cdb99fc61cbfa041d2e21a686f336490 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Rock Cliffs/Rock Cliff 4.prefab
+  importAddress: Guid(dd1832de68cba8f48960216dac3c4f3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Rock Cliffs/Rock Cliff 4.prefab using Guid(dd1832de68cba8f48960216dac3c4f3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b99f453515083ae80cdb791793cd1060') in 0.040403 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e29dba24aa6b918883241ff23ffa0e0d DependenciesID=2c4e7103dd2f206123816277ca8d3be6 StaticDependenciesID=c15f6c959a7c6e6aad2a4633207abeae 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Textures/Terrain Dirt.png
+  importAddress: Guid(ddee476c014d3ca43ad80e7c46dacd8c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Textures/Terrain Dirt.png using Guid(ddee476c014d3ca43ad80e7c46dacd8c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '71255dfb26c4a784610c466a6c32dcfb') in 0.0550316 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1e12f3dac7daaa3ddf4795038db8e543 DependenciesID=8de6f08111d54d88541905f4f5cc7bd6 StaticDependenciesID=dae760bda526f7e0c34a318c03733dc5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Materials/Skybox.mat
+  importAddress: Guid(03e2616f5befa194da5c803432a7da3a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Materials/Skybox.mat using Guid(03e2616f5befa194da5c803432a7da3a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd2c7d93e993613a5924d5a5f3a187344') in 0.0238864 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5f0fd30bf19457dcba69a840de5841f5 DependenciesID=1d3add15f3e18fbddef701b8a7b801e9 StaticDependenciesID=631d7478b661b38a008f5f745ab18941 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Stump/Stump.fbx
+  importAddress: Guid(e019a327afd8a364a8cae984935ca573) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Stump/Stump.fbx using Guid(e019a327afd8a364a8cae984935ca573) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Stump/Stump.fbx)
+ -> (Import Result ID: '9e502a7098c4462a5fa469042cc82a22') in 0.0425682 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e7dfb670f46175e43d38806f57883645 DependenciesID=5f67ee1225a196e91b5967fcbba42f20 StaticDependenciesID=5d4be7282ba06c60719726b7ca16d60b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014876 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Scenes/Showcase Demo Scene/Showcase Demo Scene.unity
+  importAddress: Guid(1dd75275ecc5c2747a8f07c660d497c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Scenes/Showcase Demo Scene/Showcase Demo Scene.unity using Guid(1dd75275ecc5c2747a8f07c660d497c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '04e43210728b94111be16cb0f005fbf7') in 0.0328171 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4b609e3755876122f81cfe5da2706051 DependenciesID=6216ae577f71edfb3d3cc27a876cccc2 StaticDependenciesID=3865b1ce1f009d6bcd1f4fd16902fd7f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Materials
+  importAddress: Guid(a21db3b1f6f12454c80b405c29cb4a06) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Materials using Guid(a21db3b1f6f12454c80b405c29cb4a06) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '635e93798772e83ed04105ae9b21d8e2') in 0.0140639 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1d3b56b01f781c542a18e7aa2ed0d31b DependenciesID=5e5ecb6e189c5d4a5b61115c052235df StaticDependenciesID=c36dc9c190e6f351be542c541d988614 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Water/Detailed Water.fbx
+  importAddress: Guid(17c4328b795601b479c1b25fa5cfbf46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Water/Detailed Water.fbx using Guid(17c4328b795601b479c1b25fa5cfbf46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Water/Detailed Water.fbx)
+ -> (Import Result ID: '92b620a4f53bcf6e2c280701ac841bea') in 0.037866 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=13f1529305286306ce08a1dfcc969923 DependenciesID=36067eba298d551920675ee08baa2864 StaticDependenciesID=c27ab12b17172a49b35bc01ccc687578 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Materials/Color Palette.mat
+  importAddress: Guid(b725cacc7387b1f4e991c4bdfcd832c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Materials/Color Palette.mat using Guid(b725cacc7387b1f4e991c4bdfcd832c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9152ae647a5d5aedb647191ee4f2d641') in 0.0234766 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7295cfbe86c0018d9d0794e175c74a10 DependenciesID=f3eef73d6858c8fa8f6f347412ed4cca StaticDependenciesID=aba328a5fc3c7d7b40092814bb9fc292 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Mushroom
+  importAddress: Guid(0f4b3ed5ed6373246bd7b7fe44d299f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Mushroom using Guid(0f4b3ed5ed6373246bd7b7fe44d299f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '42ff07df57a20226853814d8fba42e07') in 0.0148567 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6fefe1ca77bde6fe988476a66a574e1d DependenciesID=46219947908bd6e925c29524c6099bff StaticDependenciesID=da06f67c6530e78c7b054522d5b4c058 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Rock Cliffs/Rock Cliff 1.fbx
+  importAddress: Guid(0d471cc3db39dc847803964edbb2f4b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Rock Cliffs/Rock Cliff 1.fbx using Guid(0d471cc3db39dc847803964edbb2f4b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Rock Cliffs/Rock Cliff 1.fbx)
+ -> (Import Result ID: '058777a5be46d41758b8215ba44b72c8') in 0.0220308 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2f24a7414a3579a8787fda5f4d728579 DependenciesID=fb86f3c95cc064453d01f6b18b273c22 StaticDependenciesID=3d825da72b93a0897a6dcd6bbc0b5fe0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Art/Demo Animator Controllers/jump.overrideController
+  importAddress: Guid(ed216cf0dd167e44c9dd8739492adfd4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Art/Demo Animator Controllers/jump.overrideController using Guid(ed216cf0dd167e44c9dd8739492adfd4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6b84c5c703e7ab83c95d7b0de7b2e26e') in 0.0698161 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=60e9df74c189411f6bf4c89da0dcd392 DependenciesID=7f593c2e8949a5db345e89223e85f756 StaticDependenciesID=ea7b2ece630511b00d9dbeea2fb2fff1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes
+  importAddress: Guid(490be5dcc52958e43ab65270561df11d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes using Guid(490be5dcc52958e43ab65270561df11d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '312a7bce7f4afd85beddb5cebf91d2ea') in 0.0116918 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab811e8b1b6273c6db41d22a61201ba5 DependenciesID=06156fa564d4bc0eb4d2d3f01f0468ef StaticDependenciesID=01da38a840214c0b941adc30a46dfda5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Bush/Bush.fbx
+  importAddress: Guid(c1d6b7954ca8dfe48885597ce4ef6e20) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Bush/Bush.fbx using Guid(c1d6b7954ca8dfe48885597ce4ef6e20) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Bush/Bush.fbx)
+ -> (Import Result ID: 'a1b9fd7a6b25f490253cfbd41feccdbe') in 0.0269969 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=22f1320cafaf51493396673c4e5e842c DependenciesID=d27503696747111af59b38c7c27338f9 StaticDependenciesID=c4ea2122d97443e05f94d5d75baddde7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070758 seconds.
+  path: Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Art/Demo Animator Controllers/stab.overrideController
+  importAddress: Guid(096f06d48f5c476418ea81326193470e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Art/Demo Animator Controllers/stab.overrideController using Guid(096f06d48f5c476418ea81326193470e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '504e2443c7450c1f4e54e95daa8f1850') in 0.0410144 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e68ad4e55384be1bc4da9ab690c5e7d4 DependenciesID=792f8236a69086cd050a26028ac1bf63 StaticDependenciesID=f09e257afb37f3b11e128654d0858a5d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Art/Materials/Falchion_Mat.mat
+  importAddress: Guid(ba9818ead348721478e164e89ef89f76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Art/Materials/Falchion_Mat.mat using Guid(ba9818ead348721478e164e89ef89f76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1d1e11f1f77b719c6556285df1abac2e') in 0.0381308 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e382b12dbf3a74dad67e02ae1c59037a DependenciesID=bd6d531f35d235ac93f6039c91669524 StaticDependenciesID=88fa7ff4719f51e90c8599cba3fb7351 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Art/Animations/Skeleton_walk_forward.fbx
+  importAddress: Guid(c206cf45441f0484b930f9f870961a03) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Art/Animations/Skeleton_walk_forward.fbx using Guid(c206cf45441f0484b930f9f870961a03) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9fe8a91a39321eff615e899a4de1ccc8') in 0.0619434 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=59592429920dc2745275c60eff7c4bcd DependenciesID=edf6842b80c11c15133799784bed907e StaticDependenciesID=528ba18401ef2058d9d0d42bdd5275b3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 174
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Art/Animations/Skeleton_stab.fbx
+  importAddress: Guid(85b976b555a360642a5b0873d89e2f3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Art/Animations/Skeleton_stab.fbx using Guid(85b976b555a360642a5b0873d89e2f3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '58b27a4b205c2c0f74397527e61a7005') in 0.0372349 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3aeadba896547a8671b4590e5d1f584e DependenciesID=2922d9e3061dd2f08551618581607fb7 StaticDependenciesID=95d2e92dae83a93e03d693a2ebada158 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 174
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048217 seconds.
+  path: Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Art/Animations/Skeleton_run_forward.fbx
+  importAddress: Guid(5871b0ab2b25a6c4f8bf68d64700212b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Art/Animations/Skeleton_run_forward.fbx using Guid(5871b0ab2b25a6c4f8bf68d64700212b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1f83e329d83cbec90181ecfb3b382091') in 0.0612251 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=44b706fa8d5fdba8d6f1018456a1e279 DependenciesID=afd64bf3b89bc535aef79772e9d0b153 StaticDependenciesID=b8d1256919176f26e48dc8efbab22fce 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 174
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FullAssets/EnemyAssets/Skeleton/Scenes/Demo.unity
+  importAddress: Guid(bd49afc381e552b45a7c72d99b735968) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/EnemyAssets/Skeleton/Scenes/Demo.unity using Guid(bd49afc381e552b45a7c72d99b735968) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8bfca9db26da616ef3c65eb81f897ade') in 0.0291422 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bb371ead3a73a299cce2524a2b149add DependenciesID=3d9d148e93d6b8ffa2dc073a06042359 StaticDependenciesID=dd947534ca8f36434f9a8564f80119d1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/FullAssets/EnemyAssets/Skeleton/Textures/SceletonVersion2.tga
+  importAddress: Guid(b21edff3faed7d34894d57e9f3dabe51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/EnemyAssets/Skeleton/Textures/SceletonVersion2.tga using Guid(b21edff3faed7d34894d57e9f3dabe51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '810040e8652267e47e0ffa8715304689') in 0.0340505 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5cc871dece1acf20cedb19c74ef525c3 DependenciesID=c9bdd8edab631a50f97fbfaec03d6812 StaticDependenciesID=f53009e15309bd16df90956a28c0417e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Art/Demo Animator Controllers/walk.overrideController
+  importAddress: Guid(3b9ff8ae2aca47242a1abf196e76acf4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Art/Demo Animator Controllers/walk.overrideController using Guid(3b9ff8ae2aca47242a1abf196e76acf4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '630c339e42c4e906604a92df47575d57') in 0.0275497 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aa27dd51d0360329dd9e6aff5465ebd4 DependenciesID=c673eb47543fe6f0a4fbbf9b00e0fa18 StaticDependenciesID=3388e3616e93e72c841afc37aa79f179 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Demo/Demo.unity
+  importAddress: Guid(3eefb1fce571e3246ac829b90302672d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Demo/Demo.unity using Guid(3eefb1fce571e3246ac829b90302672d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3e7549ebf1152403f451eba9e0abd7e7') in 0.024282 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f04b556a274cb4c3d7db1e79b603b389 DependenciesID=3c15046a5c20f8bbe85e1632a7799912 StaticDependenciesID=3a3e43ba101f97f48436dbfad0a236ad 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FullAssets/EnemyAssets/Skeleton/FBX/IDLE.fbx
+  importAddress: Guid(94a39138eed52234a89e2a5b81fcee7b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/EnemyAssets/Skeleton/FBX/IDLE.fbx using Guid(94a39138eed52234a89e2a5b81fcee7b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1c4ef5db357282ba4576cdff5ab80999') in 0.0278411 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a51ca2146959c9e8d83ad27cf4fe7dd1 DependenciesID=8899739f8df9bc2b788a02c48d5dd20a StaticDependenciesID=a56c26e112bddeb70c3f5efaa75b3617 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 94
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FullAssets/EnemyAssets/Skeleton/FBX/Skeleton.controller
+  importAddress: Guid(b96483bad95afb5469743561c4bdaace) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/EnemyAssets/Skeleton/FBX/Skeleton.controller using Guid(b96483bad95afb5469743561c4bdaace) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '15dd299eab939b0b4c05a3f475cd4d17') in 0.0244941 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6ef3d78d5e061b0d9ebf6685f9aa6949 DependenciesID=666fc37c04d05326d34b7b88cbb1a593 StaticDependenciesID=2b4a6852d182999376b47eb519c885da 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FullAssets/EnemyAssets/Skeleton/FBX/Skeleton.fbx
+  importAddress: Guid(c0e8ec4be6a4d554881a5c8bb6d0c0cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/EnemyAssets/Skeleton/FBX/Skeleton.fbx using Guid(c0e8ec4be6a4d554881a5c8bb6d0c0cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '13e43408bd7d75091cee7e174cf239fe') in 0.0220955 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=170a8bf28180e3947c0ae49374e5d2f2 DependenciesID=4f89a5e7245bddf7bc76075fb712af39 StaticDependenciesID=4fae5ea145458d1ecee0071cd3f31ecf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 102
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FullAssets/EnemyAssets/Skeleton/Prefab/Skeleton.prefab
+  importAddress: Guid(4c67ed6c086451b4db54ac4d24b626bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/EnemyAssets/Skeleton/Prefab/Skeleton.prefab using Guid(4c67ed6c086451b4db54ac4d24b626bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '190a1a39b2f2373c8d8c429769d42e4e') in 0.0326148 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=faafb32103ca47f248ebca7886020bc9 DependenciesID=72c602f9055f637e6b137a069bff4708 StaticDependenciesID=f50d130502e3b71bd781d7f582a7de0e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 209
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.101733 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Tiny Rocks/Tiny Rock 4.prefab
+  importAddress: Guid(e810868f614ca754bbec1ee2a733ad45) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Tiny Rocks/Tiny Rock 4.prefab using Guid(e810868f614ca754bbec1ee2a733ad45) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0bedf119d51fc3fe4d0211a19d8cd317') in 0.0365018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a31eeb2174d7cbac57c7be4ca7e9f766 DependenciesID=93edddfff64a6e601f0b07d6520c1791 StaticDependenciesID=79ba0a79a4e6628eeaba2f7c0bc032e8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Tiny Rocks/Tiny Rock 3.prefab
+  importAddress: Guid(dcce7cb3aac7ef849b8b95a935ce65f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Tiny Rocks/Tiny Rock 3.prefab using Guid(dcce7cb3aac7ef849b8b95a935ce65f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '32052304afc4c6582889eb74760485d7') in 0.0408485 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=985fa867f9a971a73b71d5b079cb39cd DependenciesID=8c91bfff76a3d4e4b853d96e39e9a39e StaticDependenciesID=bdfb576ef8ee602b231d445f514fc2b4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Materials/Bush Leaves.mat
+  importAddress: Guid(143c45bbb5ae694479b1566df4a4f9a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Materials/Bush Leaves.mat using Guid(143c45bbb5ae694479b1566df4a4f9a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '232b342025e9d2502e105875043b2a96') in 0.0140084 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c4f5b130147c2a9759f62389867241a2 DependenciesID=7bb54797d67e64ef7d533550b4db4ce3 StaticDependenciesID=7f0a4b49063c733bef227323377ea143 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Tiny Rocks/Tiny Rock 2.prefab
+  importAddress: Guid(c028bb40b798bbf4eb99d332debd4a2d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Tiny Rocks/Tiny Rock 2.prefab using Guid(c028bb40b798bbf4eb99d332debd4a2d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a98a549a1ef6de28e7bd15335d69a0cb') in 0.035812 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7e4b32b35c01820a1ad8c681a80f05c8 DependenciesID=6f85fec8dc4622c00bd31625a9c0518f StaticDependenciesID=aa78a9645301c1e0da6ac5d577ced7f2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Rock Cliffs/Rock Cliff 3.fbx
+  importAddress: Guid(2fdcdf62eef546646a69ae9ead49b843) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Rock Cliffs/Rock Cliff 3.fbx using Guid(2fdcdf62eef546646a69ae9ead49b843) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Rock Cliffs/Rock Cliff 3.fbx)
+ -> (Import Result ID: 'b39e8945eef2c41b50137067ee97afc2') in 0.0295473 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=740a8c4015eb58d958d8aa996c108960 DependenciesID=020c4b56cbbdc5cfae9e36285367787d StaticDependenciesID=c762aeb8897d1253d19754f538a0d748 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Terrain/Sand.terrainlayer
+  importAddress: Guid(063d483cd7844934a88399fdc83e2052) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Terrain/Sand.terrainlayer using Guid(063d483cd7844934a88399fdc83e2052) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '110e95cf33a9675261ef7a5250e70f0d') in 0.0374194 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b139db8897ae52defe875d87710e23f2 DependenciesID=30bdfbf6e4dbcd0c08b25ee604dcaa7d StaticDependenciesID=693502d1ac7f92889ea1d349dc4eb5c6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Textures/Flower Leaf.png
+  importAddress: Guid(4e1b20f4080510a45883db6795845e28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Textures/Flower Leaf.png using Guid(4e1b20f4080510a45883db6795845e28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2d795c23b3a20acaf2c9b53d59a4a900') in 0.0205038 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7eab2a7b58d0865f0e72b4a28d5a410f DependenciesID=e5522ad8dc652c964ce189eec7d3ec82 StaticDependenciesID=7679420e85c68b2eacd40900f2212b97 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Standard Rocks/Standard Rock 2.fbx
+  importAddress: Guid(323a7477ca2ea464f86036cee8f21021) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Standard Rocks/Standard Rock 2.fbx using Guid(323a7477ca2ea464f86036cee8f21021) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Standard Rocks/Standard Rock 2.fbx)
+ -> (Import Result ID: '9b1543c4ded7cf41edd26ad0556b28c9') in 0.0244147 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cbd09468a2e49697a47043d45834bd1e DependenciesID=c76c8f2c7033c46d15f28168b385db66 StaticDependenciesID=de226cd63f380899fb788b5481335b44 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Trees/Spruce 1.prefab
+  importAddress: Guid(1f9036ec905b920479091aca9ba81305) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Trees/Spruce 1.prefab using Guid(1f9036ec905b920479091aca9ba81305) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '93b9cc6e12eba0878eeb5e37488e47af') in 0.0321118 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=947291fdb8d16328d42df0f1c2487929 DependenciesID=52a668167c74d486eb4477d2f79379ef StaticDependenciesID=1b2549546a842c2427652f1278a66918 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Log/Log.fbx
+  importAddress: Guid(2fc4f35c395a8444a8864c11b6d62042) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Log/Log.fbx using Guid(2fc4f35c395a8444a8864c11b6d62042) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Log/Log.fbx)
+ -> (Import Result ID: 'f715c58df0187e209558bd2c0034ece7') in 0.0224404 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=549666594d4d9c8e238eb274d45f6de8 DependenciesID=d095c3d676dafda3389f7984b32f962f StaticDependenciesID=a9c4f93dbd87c3b1566a42d862678592 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Standard Rocks/Standard Rock 3.fbx
+  importAddress: Guid(cdfa04c51cadc7246b34041135934d73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Standard Rocks/Standard Rock 3.fbx using Guid(cdfa04c51cadc7246b34041135934d73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Standard Rocks/Standard Rock 3.fbx)
+ -> (Import Result ID: 'd7a879f460d0eec2b56b17f837531e9c') in 0.026479 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fb2e7a322991b59d24eebb53d6494ef4 DependenciesID=82b4bb4a5026f577a7fb7bd0503ea639 StaticDependenciesID=c1df2c06f55fa7469a9c73ab00c9c2be 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Stump/Stump.prefab
+  importAddress: Guid(3aa54be08e092174ab6b689e524fdf44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Stump/Stump.prefab using Guid(3aa54be08e092174ab6b689e524fdf44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '32a8d1a476040b9dc850d6c9973213a2') in 0.0386942 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e848bba597cc10756e61b5c0d2301d62 DependenciesID=40a2d817022a671175c884563439aff1 StaticDependenciesID=42ff2ec9857dd90b32ca803945ee41c9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Grass/Grass.prefab
+  importAddress: Guid(4db940c31d61ac149801c850fc645d68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Grass/Grass.prefab using Guid(4db940c31d61ac149801c850fc645d68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '068c893f32f3bfe686ffab0f04ce5006') in 0.0284922 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a6befb0005355de66f2a3b2a1551f0d0 DependenciesID=820cc1b550c90c10971b29990c00cded StaticDependenciesID=c3773618c4c9ca81866df052ff1980b0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Standard Rocks/Standard Rock 1.fbx
+  importAddress: Guid(872845ac0a2b8c6469d5e67ad0aba08e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Standard Rocks/Standard Rock 1.fbx using Guid(872845ac0a2b8c6469d5e67ad0aba08e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Standard Rocks/Standard Rock 1.fbx)
+ -> (Import Result ID: '7f2968a45cd463db6830017fefea1405') in 0.0233462 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=faeca191953b9a06b0ef59c358a0f02d DependenciesID=b60322ce4e88232e0e4b557daf8abf27 StaticDependenciesID=85e669c1258dae474c389e2d08ff6646 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Standard Rocks/Standard Rock 2.prefab
+  importAddress: Guid(e67d3e2fdb18d364f943d685c09cb266) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Standard Rocks/Standard Rock 2.prefab using Guid(e67d3e2fdb18d364f943d685c09cb266) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '81ebfd4274d053d2bbcb828c80f1230c') in 0.0336947 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0169ef2bc7d344f46d34136313e0d37a DependenciesID=4d537ddb30495c8882d20aed51b63fc6 StaticDependenciesID=235a5274c730371e15ae384f3b33bdec 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Materials/Water.mat
+  importAddress: Guid(94ea32e4f0f6cab4e98928aadb7d9992) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Materials/Water.mat using Guid(94ea32e4f0f6cab4e98928aadb7d9992) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9fbb5f60a0860b388bddb34f4ae9198c') in 0.0151118 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d88a801d8a927595aa68fb41831931db DependenciesID=a31088f5616da64a590aea70dca30af4 StaticDependenciesID=45c7759b6fe1718641ea8187348087ec 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Misc/Lighting Settings.lighting
+  importAddress: Guid(e909468c3193f6944aa2a1ca7ac8f1ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Misc/Lighting Settings.lighting using Guid(e909468c3193f6944aa2a1ca7ac8f1ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)LightingSettings: switching bake backend from 2 to 1.
+ -> (Import Result ID: 'e5ae1977d796176b1344d9d478ba7f01') in 0.0554911 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0c900bcabd561edfb169ae4da39535cd DependenciesID=22e2a5ed236bbad7c4686e8e3e0a4417 StaticDependenciesID=716f72ef8fe5938fddc503943e7c7c90 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Textures/Terrain Sand.png
+  importAddress: Guid(18767515632688f499ed3ab96d14fe56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Textures/Terrain Sand.png using Guid(18767515632688f499ed3ab96d14fe56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c7a89fd7589ccc458293167cd932083a') in 0.0174338 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e50da0004f6c24e05ffb0fbbab752457 DependenciesID=354ba47131586764da96b32d5a69c76b StaticDependenciesID=36cac1051712079470c1ba38da4581f9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Rock Cliffs/Rock Cliff 2.prefab
+  importAddress: Guid(7ece6646ef2475b44959032f5d55a8f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Rock Cliffs/Rock Cliff 2.prefab using Guid(7ece6646ef2475b44959032f5d55a8f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4ec0a7676a571436a65cc671d768b768') in 0.0466394 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fe6e7eb525e46700ee740e77749fd6f0 DependenciesID=cab75ce5ebd920a116315cc3fef4e36b StaticDependenciesID=2f641479287cc7fcb853e3da3f515230 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Materials/Flower Leaf.mat
+  importAddress: Guid(be6a741af13d50f41b8befdd255bf584) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Proxy Games/Stylized Nature Kit Lite/Materials/Flower Leaf.mat using Guid(be6a741af13d50f41b8befdd255bf584) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'deffc76f003e4c94b9a19474335af832') in 0.0164323 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=83b3e2b5d87aaccb1fd292039199d6c2 DependenciesID=83473f455f518a929dcc610e6a4d07dd StaticDependenciesID=0f69bf82032f912362f1a3c57a1634ee 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.733577 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Flower
+  importAddress: Guid(1c693caf72a3db24ea5924731df1e778) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Flower using Guid(1c693caf72a3db24ea5924731df1e778) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e67b57fe49f0331b2a5c2cf8eddd1202') in 0.0153752 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e4a20ad45972be0f45602192e3bb61ef DependenciesID=f1a3d5ff968cea0e6134e43768731f23 StaticDependenciesID=6e298f6d3d7bd173d1ba99758b2bee47 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Terrain/Terrain.asset
+  importAddress: Guid(383c52c5dd0b6304e950169f371ab10e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Terrain/Terrain.asset using Guid(383c52c5dd0b6304e950169f371ab10e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '66ce950da2161c3fb79bd8f56ad9c31d') in 0.0474601 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ce25e2c5950421ac0343455866827a7a DependenciesID=432843ccf5ed2cd75ac90fea330be207 StaticDependenciesID=87fbd1760bbbb26cfbfe1fb8e86f5745 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks
+  importAddress: Guid(3d851ea9f4de3854286ecc808f48214f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks using Guid(3d851ea9f4de3854286ecc808f48214f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a3911f85ec7c23afaeb228df4407712e') in 0.0129486 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8edffb10daa2a6eb9b760a35e25e931b DependenciesID=f3fff7eaf38e139abe10fc40114920d1 StaticDependenciesID=b058932899da03381cae2ceab1db85e5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Log/Log.prefab
+  importAddress: Guid(4b21e533c871dba4bb5c56ba22947be8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Log/Log.prefab using Guid(4b21e533c871dba4bb5c56ba22947be8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5f9dbe24bac558ad7ae57c34e2e21762') in 0.019433 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ad8792aa0ddc48a7eacc407be6cfa09c DependenciesID=ef16ce41c2d43316d11a4bb1bc9b8b68 StaticDependenciesID=7895fc489eab76c91a90b5323792ea29 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Scenes/Main Demo Scene/OcclusionCullingData.asset
+  importAddress: Guid(bff6dc88bbfda014fbf2e9437dd3151e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Scenes/Main Demo Scene/OcclusionCullingData.asset using Guid(bff6dc88bbfda014fbf2e9437dd3151e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2641c199170a0f81e369b417803e95dc') in 0.0162218 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1d9c51189f42e9ee00a684caed7bc2a1 DependenciesID=6197a5a75d5eb027d357724a80fe6dd4 StaticDependenciesID=1f28c2f1dbdea9201023843995585f4f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Rock Cliffs/Rock Cliff 3.prefab
+  importAddress: Guid(232241c4030929146b8c0b57349f65a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Rock Cliffs/Rock Cliff 3.prefab using Guid(232241c4030929146b8c0b57349f65a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9b20cf646c51928b64fc4ab2d54e051a') in 0.017944 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bdc9ac21cc43f517fc88463323325443 DependenciesID=e7e03ad178be9b22816e34049947aed7 StaticDependenciesID=b1f056d731105e7f25a38bdffddf6d52 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Textures/Terrain Dirt.png
+  importAddress: Guid(ddee476c014d3ca43ad80e7c46dacd8c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Textures/Terrain Dirt.png using Guid(ddee476c014d3ca43ad80e7c46dacd8c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a4649fd964e517fa1a3dae6e6e565b5e') in 0.0205635 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1a82426859700781f362fefcf680d09d DependenciesID=4b3ab7d19cec0cdbc8b35cf0aa0ed273 StaticDependenciesID=dae760bda526f7e0c34a318c03733dc5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Textures/Terrain Grass.png
+  importAddress: Guid(51487f115253bea4099917c031e9fc72) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Textures/Terrain Grass.png using Guid(51487f115253bea4099917c031e9fc72) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7aabfdb02bacc5d6b014801d4d6d0243') in 0.0270815 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=01d36047bd44f94148774b19712293e7 DependenciesID=515a45cc976aa72677c2c8b4aefa1afc StaticDependenciesID=d19c76e7b44d738c9450e1ff53b712c8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Scenes/Main Demo Scene/Main Demo Scene.unity
+  importAddress: Guid(ccc5b6334ec377b498ce4052ba9f1134) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Scenes/Main Demo Scene/Main Demo Scene.unity using Guid(ccc5b6334ec377b498ce4052ba9f1134) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '47799a8b38afdcfeefe7a7cd5f9fe2c0') in 0.2873278 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=51c81dd01b9b6b8fe41b7813b2b0d7ec DependenciesID=639e91fdf72b423e533180fc7fc43ae8 StaticDependenciesID=039b21227c4989fbe40ccfc74aaed8d8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Materials/Skybox.mat
+  importAddress: Guid(03e2616f5befa194da5c803432a7da3a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Materials/Skybox.mat using Guid(03e2616f5befa194da5c803432a7da3a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '34af67082a45edff03c3373fbac66602') in 0.0189551 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c02cdecc4aa9671b8917b926ca561516 DependenciesID=a790e5ade89fca3557444446d14672cf StaticDependenciesID=631d7478b661b38a008f5f745ab18941 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Tiny Rocks/Tiny Rock 4.prefab
+  importAddress: Guid(e810868f614ca754bbec1ee2a733ad45) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Tiny Rocks/Tiny Rock 4.prefab using Guid(e810868f614ca754bbec1ee2a733ad45) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f7b3096969b272ef5c33b45cc812ce68') in 0.0180895 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0fd574816406aaecb89f9ad509ea7960 DependenciesID=5754cf1c668e601cb13364e2c9448040 StaticDependenciesID=79ba0a79a4e6628eeaba2f7c0bc032e8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Materials/Grid.mat
+  importAddress: Guid(bf347159a764ca24981a4a8fdde2dcec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Materials/Grid.mat using Guid(bf347159a764ca24981a4a8fdde2dcec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a7129fc249eaf121cadec50bddd89a4c') in 0.0149234 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ad706634fe875b161cc4f31fb639710f DependenciesID=cdb76f77a1a974b7a101723e6ec10b20 StaticDependenciesID=c9dedf5e22da7313867ba1adbed57d12 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Mushroom/Mushrooms Patch.prefab
+  importAddress: Guid(d0fa3c49b2c9cd84bb5a644c53ef025e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Mushroom/Mushrooms Patch.prefab using Guid(d0fa3c49b2c9cd84bb5a644c53ef025e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6a35a74f77832af9704b9cba2fb2f4f7') in 0.0168616 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1e70635731c935dca6887683a1cdd72d DependenciesID=f0b42739847e04479bfaa5133ca00b4b StaticDependenciesID=238b384447c5b79e9836107917845270 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Branch
+  importAddress: Guid(1e852b24dc53670408af1b99aaf7f67c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Branch using Guid(1e852b24dc53670408af1b99aaf7f67c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '08bf1e949cb0236831a8227f69bd8b0e') in 0.0145987 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d356799d30e3352f5f56080ab3beb707 DependenciesID=6be10f7dc54ed931fe4eeedf34941574 StaticDependenciesID=845a3a1dfa38da3267dae782be33181b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Branch/Branch.prefab
+  importAddress: Guid(362fbd4477668ab4a956faef2e191ccf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Branch/Branch.prefab using Guid(362fbd4477668ab4a956faef2e191ccf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '57b9d267929fad27ef61b82950bd24f2') in 0.0208501 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f072c44dce4da2901edc5aef4cfa06b2 DependenciesID=fc261e227291a93adcbf67bdf6b142f5 StaticDependenciesID=9b570c007ddebba7a7dec79aec6545f7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Mushroom/Mushrooms Patch.fbx
+  importAddress: Guid(27c3f4d36f77dde429372ccba3513837) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Mushroom/Mushrooms Patch.fbx using Guid(27c3f4d36f77dde429372ccba3513837) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Mushroom/Mushrooms Patch.fbx)
+ -> (Import Result ID: '1b9669b6a049a38582dcecd4db04cb75') in 0.0312082 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f9e181020d43107b888a4c4d9cd5ba0c DependenciesID=783d81760d9448920f01ff8d3cfee33c StaticDependenciesID=1ebe5b7adda304d4436f67da0657d454 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Terrain
+  importAddress: Guid(034ca5588deabdf4fa603d0a04ffac75) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Terrain using Guid(034ca5588deabdf4fa603d0a04ffac75) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8e8360b17604e9de981faa8bb3d3d44c') in 0.018522 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b72fc1915f1bcf8447e537fe67ec33e6 DependenciesID=c0512cac77831d9e2fdc1e54928d1424 StaticDependenciesID=7340dff3c3b70f8ff40664241fbb5439 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Textures/Grass.png
+  importAddress: Guid(2af1601ba09f43e4f8b69a794b72fb75) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Textures/Grass.png using Guid(2af1601ba09f43e4f8b69a794b72fb75) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0dc0158cc4522d4d20a747855d49628e') in 0.0222095 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1a3a4ca797988552ef615367044368c8 DependenciesID=94adee47199af45ad4dca132d33a300e StaticDependenciesID=0a6eb8b405839cc7d76f88dc62fd1cde 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Meshes/Water/Detailed Water.fbx
+  importAddress: Guid(17c4328b795601b479c1b25fa5cfbf46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Meshes/Water/Detailed Water.fbx using Guid(17c4328b795601b479c1b25fa5cfbf46) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Meshes/Water/Detailed Water.fbx)
+ -> (Import Result ID: 'c7099b9fbdcda2d542c0a1323503b60d') in 0.0254974 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fa1b5f6d86d9fb403226f0eabc1078e6 DependenciesID=3ea39fda15e62e483a0c24c9fc63fb0a StaticDependenciesID=c27ab12b17172a49b35bc01ccc687578 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Flower/Flower.prefab
+  importAddress: Guid(43999c511a596754fb989ff074c5955d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Flower/Flower.prefab using Guid(43999c511a596754fb989ff074c5955d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3e0a39d5765bfdc8bddb1c8ad5d8274a') in 0.0167648 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=46027cd5fca9eba7ace211ef507844b3 DependenciesID=284ab2c801879a7036e4197134d24b47 StaticDependenciesID=4b813d4e7a88f875c63e7df742c3fbfb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Mountain/Mountain.fbx
+  importAddress: Guid(07f7693a22c302246b83507415e1c01f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Mountain/Mountain.fbx using Guid(07f7693a22c302246b83507415e1c01f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Mountain/Mountain.fbx)
+ -> (Import Result ID: 'ad406f612e5becc96bd3d5de5fa124a7') in 0.0218133 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=20ebae88474a6a315ae443d9817985dc DependenciesID=5f50d5a963069da0128bee7962b154c0 StaticDependenciesID=bc36f71ff3266a8ba26d5ac7fd1f9d1f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Materials/Flower.mat
+  importAddress: Guid(e9427a28f20c6f24083418e09b767a8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Materials/Flower.mat using Guid(e9427a28f20c6f24083418e09b767a8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '850b068724b7e90b2b22d5d39334fea4') in 0.017686 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fd1b7ed172310c672b63422b56d19157 DependenciesID=a82b60588f5187f3e12f97a9abe6ab1a StaticDependenciesID=5f4f35af42c9138d3ab28cc979d34008 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Trees/Spruce 1.prefab
+  importAddress: Guid(1f9036ec905b920479091aca9ba81305) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Trees/Spruce 1.prefab using Guid(1f9036ec905b920479091aca9ba81305) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7e63f17d0631c3bb5719c93a95ece376') in 0.019437 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0b4282ae2dce28f69ffd7037209b8003 DependenciesID=d918e9425f67c63d689ab455b720138d StaticDependenciesID=1b2549546a842c2427652f1278a66918 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Scenes/Showcase Demo Scene
+  importAddress: Guid(91273674388b76041a2760eb0ee887a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Scenes/Showcase Demo Scene using Guid(91273674388b76041a2760eb0ee887a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cefd7beb088bb1085409d2096e846c5a') in 0.0132794 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b04d0fbeaabd8e998a8c61d7a42a2704 DependenciesID=626c64f01c4fda8b4b85a2b565a984ac StaticDependenciesID=c6906c3b488146d7144332a0675f960d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Branch/Branch.fbx
+  importAddress: Guid(9ee3751895b69084d8e785d402243c60) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Branch/Branch.fbx using Guid(9ee3751895b69084d8e785d402243c60) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Branch/Branch.fbx)
+ -> (Import Result ID: '58c13cbe7b4c21fcf6d9d8ef4e57e564') in 0.0258246 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3239eaaf86a67910d6d3510bd00d4ab1 DependenciesID=1ae99c86156007379a31f7e34e8c839d StaticDependenciesID=665beb15d643deb14d19a4a648c80c73 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Log/Log.fbx
+  importAddress: Guid(2fc4f35c395a8444a8864c11b6d62042) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Log/Log.fbx using Guid(2fc4f35c395a8444a8864c11b6d62042) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Meshes/Foliage/Log/Log.fbx)
+ -> (Import Result ID: '6305fb2dd4d979c8f86e0364e044f504') in 0.0275646 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2e8ac47cced9f7dea2a3dd6311fe7a95 DependenciesID=07d52713f46c28cab16065ec5dd43532 StaticDependenciesID=a9c4f93dbd87c3b1566a42d862678592 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Mountain
+  importAddress: Guid(877e7b600192b08408a759651df26938) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Mountain using Guid(877e7b600192b08408a759651df26938) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7ac3644e2bd04911b687ba0b7861c0f4') in 0.0158334 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b48ba607c309ec900dcd19f293001db0 DependenciesID=9979d819ae27b8140e4d4f052dd71345 StaticDependenciesID=4d0f97e0791011ae97607e70d51a29af 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Standard Rocks/Standard Rock 3.fbx
+  importAddress: Guid(cdfa04c51cadc7246b34041135934d73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Standard Rocks/Standard Rock 3.fbx using Guid(cdfa04c51cadc7246b34041135934d73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Standard Rocks/Standard Rock 3.fbx)
+ -> (Import Result ID: '49867e04f34e599a39eeb618eabdda76') in 0.0288033 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bd0ac736611965a2e15ae6141b2a1caf DependenciesID=bb1c9c60854fe18e54778d3d0f83966a StaticDependenciesID=c1df2c06f55fa7469a9c73ab00c9c2be 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Terrain/Grass.terrainlayer
+  importAddress: Guid(c371eccb4fab1f74f84b8261d558a313) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Terrain/Grass.terrainlayer using Guid(c371eccb4fab1f74f84b8261d558a313) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd549bfa055828b50599be373b7d64690') in 0.01997 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=67c473bc90d9682dcdbd8c4294258741 DependenciesID=9f7521ef595e8a1ed55900b6e7266279 StaticDependenciesID=8ff50f29f7065fa7a455b5169f7367df 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Scenes/Showcase Demo Scene/OcclusionCullingData.asset
+  importAddress: Guid(06b9a2de21ecf03428a691c4ec71cc06) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Scenes/Showcase Demo Scene/OcclusionCullingData.asset using Guid(06b9a2de21ecf03428a691c4ec71cc06) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e3cc8fa96ee105e60c09452d42ece55f') in 0.0139506 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d19a5d8f20bc6921e9c45c24c7845154 DependenciesID=7877f4b41b068b7bb6655e48fddf4488 StaticDependenciesID=cdb99fc61cbfa041d2e21a686f336490 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Prefabs
+  importAddress: Guid(d4a22d696d01a7249981977642f3bb1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Prefabs using Guid(d4a22d696d01a7249981977642f3bb1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '796eeedbd65fad51a5b0e63eec131211') in 0.0141205 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=361e72202c386a6a66fefe885b9bca97 DependenciesID=7d38dec48f524fdf99c60b8be8e32eee StaticDependenciesID=ed9f0907b6a1c32ed1d5f9e4000fd09c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage
+  importAddress: Guid(f3b87a002ea6ee6439efcc0bd65e95ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage using Guid(f3b87a002ea6ee6439efcc0bd65e95ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c5f480d720c8c68f35abd4d6036d2643') in 0.0131631 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c7a647e31b96ef4b2aa1e5ce57de84c3 DependenciesID=5b19a599b9b877d44caef6833c69a762 StaticDependenciesID=87369ed9558650ca161216c1f2048065 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Rock Cliffs/Rock Cliff 4.prefab
+  importAddress: Guid(dd1832de68cba8f48960216dac3c4f3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Rock Cliffs/Rock Cliff 4.prefab using Guid(dd1832de68cba8f48960216dac3c4f3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '85c7c3a5bde34e46441a6995eaacca4e') in 0.0170355 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8160c04e7f3974c57b27ab24a7d81f7a DependenciesID=a8b534bfb3648773a0de78771c9c004f StaticDependenciesID=c15f6c959a7c6e6aad2a4633207abeae 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Textures/Terrain Rock.png
+  importAddress: Guid(62b86bcfffa0aca4d9d67620fe50727a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Textures/Terrain Rock.png using Guid(62b86bcfffa0aca4d9d67620fe50727a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ef35fea91aced9df3902425e5047234e') in 0.0204331 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d259e622bde4b8e97663dc8f628e602b DependenciesID=89e3342c6ad7949b4fb0614eafb06b02 StaticDependenciesID=ef5aeaf11208dfee9cd7db1fde9fa4ae 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Bush
+  importAddress: Guid(5b77c6b990d4bf1448d6b10972c7a1ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Bush using Guid(5b77c6b990d4bf1448d6b10972c7a1ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '71c0b2134b7b2110fbbdb1eed7e9ef1f') in 0.0150507 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1efcc515c1874b6f2b4af75684974f22 DependenciesID=4e51ad8c6cbc9554853e3826f87637f8 StaticDependenciesID=f6a9d87b0d1b6bc33f7445616c280d5e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Textures/Terrain Sand.png
+  importAddress: Guid(18767515632688f499ed3ab96d14fe56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Textures/Terrain Sand.png using Guid(18767515632688f499ed3ab96d14fe56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4d5b039461698dadaba929192da5b489') in 0.0170985 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=11190b27ac860dbb4c8217a5b6b9707a DependenciesID=301ea708c1210a7b03aa560407a9e4f6 StaticDependenciesID=36cac1051712079470c1ba38da4581f9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Tiny Rocks/Tiny Rock 5.prefab
+  importAddress: Guid(50fff5eaaf978354ba27eacb51eedb8e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Tiny Rocks/Tiny Rock 5.prefab using Guid(50fff5eaaf978354ba27eacb51eedb8e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f7151333644ef0f9ffad165bf69db47d') in 0.0238636 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=efb5de0687b84c2f129f31206e347051 DependenciesID=6bc065b4935112fcf4a7cf7a999ef6fc StaticDependenciesID=aa2d0b956d1c3a04859b305e2a730d3c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Standard Rocks/Standard Rock 4.fbx
+  importAddress: Guid(75ed99bf730d4404d9eec151c5d709ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Standard Rocks/Standard Rock 4.fbx using Guid(75ed99bf730d4404d9eec151c5d709ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Standard Rocks/Standard Rock 4.fbx)
+ -> (Import Result ID: '3a15d78b1e99aa5ccee7169d907544dd') in 0.0280631 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=10ec81093478bd0aaac5b67c3760a6b1 DependenciesID=4d28e5884d7c87bfd8dc05cda5687432 StaticDependenciesID=e092e3f1762acd7bf23c6da76b6745b8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Rock Cliffs/Rock Cliff 2.prefab
+  importAddress: Guid(7ece6646ef2475b44959032f5d55a8f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Prefabs/Rocks/Rock Cliffs/Rock Cliff 2.prefab using Guid(7ece6646ef2475b44959032f5d55a8f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2bced3989820cff29116d6fe84e08427') in 0.0203206 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=31716720a09217627f205f3badd1f502 DependenciesID=b71fcc858dd7fbc8381b6a2e0778b63d StaticDependenciesID=2f641479287cc7fcb853e3da3f515230 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Rock Cliffs
+  importAddress: Guid(4b89029d81a466949b58c5a95366e2e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Rock Cliffs using Guid(4b89029d81a466949b58c5a95366e2e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ea03aa91d53898221f7c5fa2b6a259b3') in 0.0160882 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8bd404e9cb33a27b637fd3da26f948da DependenciesID=11cc98afc4eba7d8055ce0baaa3f0bd7 StaticDependenciesID=5ba953e2f7d82523503eb8e08d4b17ff 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Grass
+  importAddress: Guid(8ca3ea94bb0b6274295fa56ba3ca26dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Prefabs/Foliage/Grass using Guid(8ca3ea94bb0b6274295fa56ba3ca26dd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '37ede3c72e6b64e309eb46547ccfc4c5') in 0.0125687 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1e8c1d3cd2dfb460136bf8f832b7eff0 DependenciesID=b30e1f8cadd92cd7167dfe69e183073c StaticDependenciesID=087755807bfcac447ff8d9ea1929da69 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Rock Cliffs/Rock Cliff 4.fbx
+  importAddress: Guid(22394c2ced239844aaa591e316acccfc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Rock Cliffs/Rock Cliff 4.fbx using Guid(22394c2ced239844aaa591e316acccfc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/FullAssets/Map/Proxy Games/Stylized Nature Kit Lite/Meshes/Rocks/Rock Cliffs/Rock Cliff 4.fbx)
+ -> (Import Result ID: '0b5d889a28f679d6475ebf76d801d0c6') in 0.0229518 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=81599c7554f46494239a0181b44a25a9 DependenciesID=d50cb2495479fc02517fd57298bf121a StaticDependenciesID=42bc98a6dbf6d93952c09c884cad35e4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

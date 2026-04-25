@@ -1,0 +1,744 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/staging' branch; Version is '6000.4.4f1 (360f97ecca93) revision 3542935'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rabia" at "2026-04-25T16:15:01.3696779Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'tr' Physical Memory: 14188 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-04-25T16:15:01Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.4.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/rabia/OneDrive/Masaüstü/rabiacilginunitygame/rabiacilginunitygame_adventurer
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+62802
+-licensingIpc
+LicenseClient-rabia
+-force-d3d12
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/rabia/OneDrive/Masaüstü/rabiacilginunitygame/rabiacilginunitygame_adventurer
+C:/Users/rabia/OneDrive/Masaüstü/rabiacilginunitygame/rabiacilginunitygame_adventurer
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [13332]  Target information:
+
+Player connection [13332]  * "[IP] 192.168.1.155 [Port] 0 [Flags] 2 [Guid] 3867780562 [EditorId] 3867780562 [Version] 1048832 [Id] WindowsEditor(7,Carmilla) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [13332] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [13332] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 6.44 ms, found 4 plugins.
+Initialize engine version: 6000.4.4f1 (360f97ecca93)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/rabia/OneDrive/Masaüstü/rabiacilginunitygame/rabiacilginunitygame_adventurer/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:          NVIDIA
+    VRAM:            3965 MB
+    App VRAM Budget: 3370 MB
+    Driver:          32.0.15.9621
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002832 seconds.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-rabia"
+[Licensing::IpcConnector] LicenseClient-rabia channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rabia-6000.4.4" at "2026-04-25T16:15:02.9926634Z"
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.745 seconds
+Domain Reload Profiling: 1540ms
+	BeginReloadAssembly (234ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (125ms)
+	LoadAllAssembliesAndSetupDomain (353ms)
+		LoadAssemblies (228ms)
+		AnalyzeDomain (335ms)
+			TypeCache.Refresh (332ms)
+				TypeCache.ScanAssembly (305ms)
+	FinalizeReload (748ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (88ms)
+			BeforeProcessingInitializeOnLoad (150ms)
+			ProcessInitializeOnLoadAttributes (197ms)
+			ProcessInitializeOnLoadMethodAttributes (163ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              5985754ffaff493bb4ba11a38096ca51
+  Correlation Id:          48ad81060670be6cd35055be7e117786
+  External correlation Id: 3040852134912786122
+  Machine Id:              d21FMT1xiNXu7zt9KBEPZT1/MAs=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-rabia-6000.4.4" (connect: 0.00s, validation: 0.00s, handshake: 1.64s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rabia-6000.4.4-notifications" at "2026-04-25T16:15:04.6384536Z"
+[Licensing::Module] Licensing Background thread has ended after 3.27s
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18966806831356-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 2.04 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 2.34 ms, found 4 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.093 seconds
+Domain Reload Profiling: 2145ms
+	BeginReloadAssembly (282ms)
+		DisableScriptedObjects (13ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (608ms)
+		LoadAssemblies (474ms)
+		AnalyzeDomain (285ms)
+			TypeCache.Refresh (187ms)
+				TypeCache.ScanAssembly (172ms)
+			BuildScriptInfoCaches (86ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1094ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (183ms)
+			ProcessInitializeOnLoadAttributes (575ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (9ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.28 ms, found 4 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6540 unused Assets / (5.7 MB). Loaded Objects now: 7365.
+Memory consumption went from 155.2 MB to 149.4 MB.
+Total: 9.371300 ms (FindLiveObjects: 0.680600 ms CreateObjectMapping: 0.621800 ms MarkObjects: 5.499900 ms  DeleteObjects: 2.566500 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.60 ms, found 4 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6527 unused Assets / (5.7 MB). Loaded Objects now: 7365.
+Memory consumption went from 153.0 MB to 147.3 MB.
+Total: 12.175500 ms (FindLiveObjects: 0.930600 ms CreateObjectMapping: 0.757800 ms MarkObjects: 6.380900 ms  DeleteObjects: 4.104500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 4791.200993 seconds.
+  path: Assets/FullAssets/SazenGames/Skeleton/Art/Demo Animator Controllers/slash01.overrideController
+  importAddress: Guid(e0964a86e58371546a7538cdefa1b62f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/SazenGames/Skeleton/Art/Demo Animator Controllers/slash01.overrideController using Guid(e0964a86e58371546a7538cdefa1b62f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2a26c45e22513286563448394b0f93ba') in 0.113651 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=af46ee37ce0effc5c991e5cf6cf2c7aa DependenciesID=8c9a6e2009a7e207be01e93ec310240e StaticDependenciesID=cf2cf997affc4995f9fd21e8f5f63f78 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Skeleton/FBX/Walk.fbx
+  importAddress: Guid(dff922d4773e0164590ddeb8a4b95015) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Skeleton/FBX/Walk.fbx using Guid(dff922d4773e0164590ddeb8a4b95015) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ef2ac008da4b077390fe49b69e450ffd') in 0.0700334 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=839b5a22ded199eb9c803a8647cc23a9 DependenciesID=cc27c992fef31c3e45899c9922c7f0db StaticDependenciesID=c770c95050a65aa5f1316c6222c81f2f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 94
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Skeleton/FBX/Skeleton.fbx
+  importAddress: Guid(c0e8ec4be6a4d554881a5c8bb6d0c0cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Skeleton/FBX/Skeleton.fbx using Guid(c0e8ec4be6a4d554881a5c8bb6d0c0cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0aec48fb16928002a9002f68a444a7d3') in 0.0352626 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=46f2300a03e6046afdf85e9ad323f89d DependenciesID=e1e33478775637f71ffdddbc81f5fe94 StaticDependenciesID=4fae5ea145458d1ecee0071cd3f31ecf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 102
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/FullAssets/SazenGames/Skeleton/Art/Animations/Skeleton_fall.fbx
+  importAddress: Guid(b3175ff2052d36d449f784bb41bf92f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/SazenGames/Skeleton/Art/Animations/Skeleton_fall.fbx using Guid(b3175ff2052d36d449f784bb41bf92f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b5225ec64a2e8d125c0692a34a668166') in 0.0503116 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d3dee9dbf27e005945f42bea4024507d DependenciesID=d763fbab3ab7410c1dd545a6804e255a StaticDependenciesID=052ff93bdc608be6b963f29de14457ba 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 174
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FullAssets/SazenGames/Skeleton/Art/Animations/Skeleton_run_forward.fbx
+  importAddress: Guid(5871b0ab2b25a6c4f8bf68d64700212b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/SazenGames/Skeleton/Art/Animations/Skeleton_run_forward.fbx using Guid(5871b0ab2b25a6c4f8bf68d64700212b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '93fd066c476a443c93948e48810ef473') in 0.0532718 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3381aeddcd8a7822549f05b7d041c4b8 DependenciesID=61b7ff06d14a4daffde3183402997207 StaticDependenciesID=b8d1256919176f26e48dc8efbab22fce 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 174
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.830157 seconds.
+  path: Assets/FullAssets/SazenGames
+  importAddress: Guid(6b1ecf6b57cb9564b890caa99d20043b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/SazenGames using Guid(6b1ecf6b57cb9564b890caa99d20043b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'aafbfa97f258cc521268593ef711f52a') in 0.0207026 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=debbc51be8845ac7f858983297226877 DependenciesID=0a2dac94f25a2cd99b07292a8af08148 StaticDependenciesID=8f1c535d7141546e875eee1c6bd26213 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/FullAssets/SazenGames/Skeleton/Art/Animations/Skeleton_scream.fbx
+  importAddress: Guid(86a91506aa2b93c489463253cfac6e49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/SazenGames/Skeleton/Art/Animations/Skeleton_scream.fbx using Guid(86a91506aa2b93c489463253cfac6e49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '623198a9bf934b49e8fa31f4e41fd9c1') in 0.0601764 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d89ab194a6f7a8131a161073011f1950 DependenciesID=e39c4d7e5c797a19216d837e0cf73bf6 StaticDependenciesID=08bb2fa0b04f991311f26923e0e64a1d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 174
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FullAssets/SazenGames/Skeleton/Art/Textures/Falchion_Texture.psd
+  importAddress: Guid(24105ef0411bc4345876bafa55248028) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/SazenGames/Skeleton/Art/Textures/Falchion_Texture.psd using Guid(24105ef0411bc4345876bafa55248028) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '091ff496a543a5dad4036077527e473b') in 0.0798587 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=beb9e333fb2cd636ab3df9e533bcefc6 DependenciesID=b1d9b3424b888180fad372c63cd90c2c StaticDependenciesID=a3e3af84af4c5018a96dc6c746c3cebd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/FullAssets/SazenGames/Skeleton/Art/Materials
+  importAddress: Guid(96331e42fe792804da35fbbc6dfc7be1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/SazenGames/Skeleton/Art/Materials using Guid(96331e42fe792804da35fbbc6dfc7be1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'dd64896b88ddd89c8d2b8fe74369ec92') in 0.0199587 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=32b23f4f85769542cd24c1b6b7ad12ce DependenciesID=3f0884abfa02918a4b51d0fb059be530 StaticDependenciesID=fb1b110c97fb545760d4de317654be69 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FullAssets/SazenGames/Skeleton/Art/Animations/Skeleton_take_damage.fbx
+  importAddress: Guid(7107e8e3228a3504f96167a4314fa2fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/SazenGames/Skeleton/Art/Animations/Skeleton_take_damage.fbx using Guid(7107e8e3228a3504f96167a4314fa2fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9529c604d0b78b6f9b12daf879d86bde') in 0.0473589 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b15a37c4c9d2bc8d8ffd1f0b0e82b840 DependenciesID=d4dd7115420cabd8de63a24980c25a19 StaticDependenciesID=147efc6bc2cbc053e55c3c5d82d1e9f7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 174
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/FullAssets/SazenGames/Skeleton/Art/Animations/RootMotion/Skeleton_run_forward_RM.fbx
+  importAddress: Guid(0da3bc738e5945644b606f456bab22ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/SazenGames/Skeleton/Art/Animations/RootMotion/Skeleton_run_forward_RM.fbx using Guid(0da3bc738e5945644b606f456bab22ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bf6e716139a0b7b264ce48ee7be1c09a') in 0.0441077 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e7613efba570f8fa4d6c19961533a482 DependenciesID=48826efa699a9b014355993575d331a6 StaticDependenciesID=ac5f9b1c7443eb96cff16ea2ccf1cdbe 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 174
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/FullAssets/SazenGames/Skeleton/Prefabs/Skeleton_110.prefab
+  importAddress: Guid(61b3e3801d56a3f429556c96ea2f07d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/SazenGames/Skeleton/Prefabs/Skeleton_110.prefab using Guid(61b3e3801d56a3f429556c96ea2f07d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7a5b6c8fd072d7fe2540fbe71ab894c3') in 0.0432562 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=48348366358418e21bfa6e37facabd70 DependenciesID=9da117f1b53fbfa39439aad2b82ac84a StaticDependenciesID=a85c76fff106a81fafd0125fe8642899 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 349
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 2.61 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.546 seconds
+Domain Reload Profiling: 2681ms
+	BeginReloadAssembly (284ms)
+		DisableScriptedObjects (9ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (97ms)
+	LoadAllAssembliesAndSetupDomain (684ms)
+		LoadAssemblies (548ms)
+		AnalyzeDomain (275ms)
+			TypeCache.Refresh (12ms)
+			BuildScriptInfoCaches (246ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1550ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (276ms)
+			ProcessInitializeOnLoadAttributes (782ms)
+			ProcessInitializeOnLoadMethodAttributes (154ms)
+			AfterProcessingInitializeOnLoad (10ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 3.63 ms, found 4 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6539 unused Assets / (6.5 MB). Loaded Objects now: 7383.
+Memory consumption went from 161.1 MB to 154.6 MB.
+Total: 18.750800 ms (FindLiveObjects: 1.315300 ms CreateObjectMapping: 1.825000 ms MarkObjects: 9.389900 ms  DeleteObjects: 6.218400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.560875 seconds.
+  path: Assets/Skeleton
+  importAddress: Guid(8c5bfb37bcba6a844987247610007c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeleton using Guid(8c5bfb37bcba6a844987247610007c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '878803378cae333933ab4b8b8c01a6f0') in 0.0033799 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f0658d186781d92b2479e7fa47f24496 DependenciesID=67c80ab9976b878e5ff0c143c79861a2 StaticDependenciesID=baabe563487d0bf29fcc60005637fa83 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.473798 seconds.
+  path: Assets/FullAssets/Skeleton/Scenes
+  importAddress: Guid(6c815dde7e1d90c47b6f8ce58a02124b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Skeleton/Scenes using Guid(6c815dde7e1d90c47b6f8ce58a02124b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c0a7077599a8a799f97bd99995852f75') in 0.0612214 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c2bd85dc9b075a84a4c1625a032daaa8 DependenciesID=9532a859273ec35a5c1573b29e2cc8b2 StaticDependenciesID=578c0eed0a5cf2f4c94ae901cf613346 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FullAssets/Skeleton/Materials
+  importAddress: Guid(eb1155c94f54d10488563e378503f436) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Skeleton/Materials using Guid(eb1155c94f54d10488563e378503f436) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a8b8a0d0c9721947f0d9fcf9db40f8c3') in 0.0136921 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cfc800c9cefd3a4ddbdbaf18b9ad2035 DependenciesID=95ae62627e6281c0aa41d6662fbbd2ce StaticDependenciesID=63c2dc0932dc41fed76d01eb1872a91d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/FullAssets/Skeleton/Textures/SceletonVersion3.tga
+  importAddress: Guid(908a65dfeae5cc148b500a84f341bc3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Skeleton/Textures/SceletonVersion3.tga using Guid(908a65dfeae5cc148b500a84f341bc3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9dc491f486728d8d4636fcbd0c17690d') in 0.0844333 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0238759eb51fef0957c4a4dbd796ff21 DependenciesID=9a93fba7abc0ad70225767592e7fd003 StaticDependenciesID=813f03890a8ec774fddc893cb635631c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/FullAssets/Skeleton/Prefab/Skeleton.prefab
+  importAddress: Guid(4c67ed6c086451b4db54ac4d24b626bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Skeleton/Prefab/Skeleton.prefab using Guid(4c67ed6c086451b4db54ac4d24b626bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9c9e82b86c2d5ef3392b4421b1454eab') in 0.0413974 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=816f8acbcd9911bdc907a2adc238d3dd DependenciesID=b0a8ed9b8d507f0ccb4b79e0fabd6b50 StaticDependenciesID=f50d130502e3b71bd781d7f582a7de0e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 209
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FullAssets/Skeleton/Textures/SceletonVersion2.tga
+  importAddress: Guid(b21edff3faed7d34894d57e9f3dabe51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Skeleton/Textures/SceletonVersion2.tga using Guid(b21edff3faed7d34894d57e9f3dabe51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ca157d35eb91090f0de6a336be320aa4') in 0.0215353 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a0f3d96eeabbc1899f3b6d99465072ef DependenciesID=e029f806b3f4c2002b86cd13deec447b StaticDependenciesID=f53009e15309bd16df90956a28c0417e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FullAssets/Skeleton/FBX/Walk.fbx
+  importAddress: Guid(dff922d4773e0164590ddeb8a4b95015) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Skeleton/FBX/Walk.fbx using Guid(dff922d4773e0164590ddeb8a4b95015) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'aa4a1a753969655b3eca2e4231561552') in 0.0522709 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d06a2aaba1f904da81e36dfc4991d87e DependenciesID=cbde84b019bcf661f2c3024434d40949 StaticDependenciesID=c770c95050a65aa5f1316c6222c81f2f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 94
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FullAssets/Skeleton/FBX
+  importAddress: Guid(a8d933cfae863854b8e458b67adb4140) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/Skeleton/FBX using Guid(a8d933cfae863854b8e458b67adb4140) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f12ae3e89289382db385291c4cc0edec') in 0.0163124 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=611f443cd19a21725c6527394fdb24b1 DependenciesID=b6f7989c6b1a16028c431302cc513b86 StaticDependenciesID=c0ba52c513960482a498bba7138ade7b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.78 ms, found 4 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6527 unused Assets / (5.8 MB). Loaded Objects now: 7383.
+Memory consumption went from 161.5 MB to 155.7 MB.
+Total: 10.197000 ms (FindLiveObjects: 0.734200 ms CreateObjectMapping: 0.682000 ms MarkObjects: 5.883100 ms  DeleteObjects: 2.896700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.483034 seconds.
+  path: Assets/FullAssets/EnemyAssets/SazenGames
+  importAddress: Guid(6b1ecf6b57cb9564b890caa99d20043b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/EnemyAssets/SazenGames using Guid(6b1ecf6b57cb9564b890caa99d20043b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd191f2890902a9af2cc33c7772de72f1') in 0.0451871 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e3b03b3a9d3695fec2d5175ebe583682 DependenciesID=52697131c14419bd0c4cbba5d29b3966 StaticDependenciesID=8f1c535d7141546e875eee1c6bd26213 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Art/Animations/Skeleton_spawn.fbx
+  importAddress: Guid(4e39d77ee1de8bf44b8fa7f887032cbc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Art/Animations/Skeleton_spawn.fbx using Guid(4e39d77ee1de8bf44b8fa7f887032cbc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fda18011968580a45cad0ae35a7affeb') in 0.0793923 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cca17a3437a9677c1441eeb6d4f4ea5d DependenciesID=cabb46dfd92d4568253956414198e179 StaticDependenciesID=b01be87cf3d954139eb0c7e10f19a87c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 174
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Art/Animations/Skeleton_throw_projectiles.fbx
+  importAddress: Guid(9ad86ec5cb863864eabd6fb0f3fd816c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Art/Animations/Skeleton_throw_projectiles.fbx using Guid(9ad86ec5cb863864eabd6fb0f3fd816c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f20c1eb6b29c8986b9291700604ac494') in 0.0550138 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5d7f7839a9eb9c8a088540ef16a90448 DependenciesID=4898547b2e744304a1d6f32b8d82a000 StaticDependenciesID=206762afbb92615611bd5d0414a5e9a4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 174
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Art/Textures/Skeleton_BaseColor.psd
+  importAddress: Guid(262795ed43e22c84d910b9ffee69b103) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Art/Textures/Skeleton_BaseColor.psd using Guid(262795ed43e22c84d910b9ffee69b103) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '66a701d71c11dfb2bc88eb16163d6a7b') in 0.0294187 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0bcc8ca028ced399cf43fa53b8155469 DependenciesID=24b1b1c188dd4f1745cecd72b3d4795a StaticDependenciesID=36822c288d684b386c65231e5eaa1892 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Documentation/documentation.rtf
+  importAddress: Guid(27886462b131dcf4ca029ed72ed633b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Documentation/documentation.rtf using Guid(27886462b131dcf4ca029ed72ed633b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4486738244f848032bffd295a512c62a') in 0.017318 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=005c4c5e1644ef383a397957c4cf994f DependenciesID=5c6e8cfe797bac90c3554de45f0d336c StaticDependenciesID=253b7c45097debb22ddc8c38de09b61a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Scripts
+  importAddress: Guid(6409761abef22b94aad2d133acf35727) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Scripts using Guid(6409761abef22b94aad2d133acf35727) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '09017996000140bd3bf62d062f13d163') in 0.0186944 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=026f1c7cb0c879908757f7ee0ba61abf DependenciesID=e1e85637f086c2cf951f5927ea81aea8 StaticDependenciesID=0a191975888723cac438b71bf4c22159 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Art/Demo Animator Controllers/death.overrideController
+  importAddress: Guid(d86f425e09bd3ff4fa0e23cbd09347a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Art/Demo Animator Controllers/death.overrideController using Guid(d86f425e09bd3ff4fa0e23cbd09347a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '797345a388c2c0b4fb70b9d5637691a6') in 0.0305117 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=44c41ac238c00abd18d9a143b3dfab74 DependenciesID=e6b25c150a0538920cf087221dde7a80 StaticDependenciesID=a9eb967ba0b3b63ef8fa6d3d314ed8b9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Art/Animations/Skeleton_slash02.fbx
+  importAddress: Guid(e21b0b2125aad7d4b812953b874cd974) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Art/Animations/Skeleton_slash02.fbx using Guid(e21b0b2125aad7d4b812953b874cd974) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cfd8e779e329079e869038cd696adf0f') in 0.0457612 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=18ead4763eb406df497563705627d626 DependenciesID=c8697cee86006b6d02f72308ac03316f StaticDependenciesID=b73d3f1021808c9aedd733c4b2102bb7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 174
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Scripts/SimpleCameraController.cs
+  importAddress: Guid(82e26807fca401943a61ddd7b3fabe6d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Scripts/SimpleCameraController.cs using Guid(82e26807fca401943a61ddd7b3fabe6d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bf8204eecfec439dcc3b85cd3a6312c0') in 0.0291615 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e2b596834d48fb5adf0853fd675c1ebd DependenciesID=0aa6bd21ed30ef30ee672df7a1401c80 StaticDependenciesID=3672e592d06fe99260187b575d608568 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Scripts/AnimationReplayer.cs
+  importAddress: Guid(e66b8749005de5c4998c15fa56703ac3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Scripts/AnimationReplayer.cs using Guid(e66b8749005de5c4998c15fa56703ac3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '21b41ac28ec28168d1f31635b7ea203b') in 0.0482724 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fe50fc09bc5d64b94e75cffaa4cf9794 DependenciesID=fa28cbe3ba73a97fbb8c6d0bb72ce064 StaticDependenciesID=27b2b73f47c0d612f0f37cfe238c3c29 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Art/Demo Animator Controllers
+  importAddress: Guid(a31d2ebcb8efd9840a90caf3e66b0184) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Art/Demo Animator Controllers using Guid(a31d2ebcb8efd9840a90caf3e66b0184) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fba61246dfe757b55e8aa5a54f5cc024') in 0.0173932 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4e6a9138f21400f99e6ba1aa2aaf5d2a DependenciesID=7fbc7b0af6e60fe51f76f127d062fa65 StaticDependenciesID=1df21ea9206b3941c7207bfc6b03da3f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Art/Demo Animator Controllers/revive.overrideController
+  importAddress: Guid(15340e2c8ae3d5b479a50465a6d23485) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Art/Demo Animator Controllers/revive.overrideController using Guid(15340e2c8ae3d5b479a50465a6d23485) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '10954c0f8b10b76d094c55cce0bb9634') in 0.0244884 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=129054a2a95517840d47b660953e2167 DependenciesID=2e66566df9989101d53d379e33d9708d StaticDependenciesID=94a70e62c69c4107b7d6f2dba38f48df 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Art/Animations/Skeleton_revive.fbx
+  importAddress: Guid(152e04866bb4599408f22b5cbbb73e78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Art/Animations/Skeleton_revive.fbx using Guid(152e04866bb4599408f22b5cbbb73e78) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '32c3c27f54a643809beb88a12f7328ff') in 0.0313555 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2688a83c1ed8717e43d14d5db840af6b DependenciesID=b2b0560848a81a3d3c65fcf489bcdfc5 StaticDependenciesID=3d893552bba226436b2ef7a37fbf9c06 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 174
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Art/Demo Animator Controllers/fall.overrideController
+  importAddress: Guid(c44bf825bd7b3de40940f5d0ab25bf5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/FullAssets/EnemyAssets/SazenGames/Skeleton/Art/Demo Animator Controllers/fall.overrideController using Guid(c44bf825bd7b3de40940f5d0ab25bf5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f2422fb221735a583973830c62899c09') in 0.0182499 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9b2b57e682c1bc6f6a79d242593320e0 DependenciesID=2dfb15fc47a1eea586a8a403c5c74bd1 StaticDependenciesID=1771d970845e4569bade9020cba57582 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 2.23 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.983 seconds
+Domain Reload Profiling: 2091ms
+	BeginReloadAssembly (260ms)
+		DisableScriptedObjects (9ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (93ms)
+	LoadAllAssembliesAndSetupDomain (673ms)
+		LoadAssemblies (519ms)
+		AnalyzeDomain (277ms)
+			TypeCache.Refresh (11ms)
+			BuildScriptInfoCaches (248ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (983ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (188ms)
+			ProcessInitializeOnLoadAttributes (470ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (12ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 2.17 ms, found 4 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6539 unused Assets / (5.8 MB). Loaded Objects now: 7386.
+Memory consumption went from 161.0 MB to 155.1 MB.
+Total: 11.792300 ms (FindLiveObjects: 0.792500 ms CreateObjectMapping: 1.140200 ms MarkObjects: 6.771500 ms  DeleteObjects: 3.086900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 112.957959 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/FullscreenInvertColors.mat
+  importAddress: Guid(78a08787ca30045abb69f6f7dd878e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/FullscreenInvertColors.mat using Guid(78a08787ca30045abb69f6f7dd878e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'af25e3899ca46b891e8c58cbaf058eff') in 1.488517 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3a908ee815ce691167dd6b424b95f1e6 DependenciesID=4aa0363878633a963f713bd907af95e9 StaticDependenciesID=eaf5d14f50100270f6bc1713310649a4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat
+  importAddress: Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat using Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a4e87b8824262eae7f813ca9850ae2a5') in 0.0370192 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1a164c3998d2f3193dd25ee9ab8a36c5 DependenciesID=70a1a1df006c301671fba5c463c6da0f StaticDependenciesID=ef9fcdf1979bdca913290e0af378ea5c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SimpleLit.mat
+  importAddress: Guid(6a1143ee683302f4aa628c052723efc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SimpleLit.mat using Guid(6a1143ee683302f4aa628c052723efc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd10074e67a245df242f9e7b7958f8c9a') in 5.2056777 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b2a4272f0ceabbff1c0add37ffc8d185 DependenciesID=9864e9037c4c5b888a9b5dbb2ce1742b StaticDependenciesID=3e4d69d48d44f050fa849bc104bdfe75 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat
+  importAddress: Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat using Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '79b1963d4980849187dad2620b600ef9') in 0.0173654 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8a3a6e13d2f3169f71111f9e1df6762a DependenciesID=d239a0c8cf61c198be768373aa3bdb56 StaticDependenciesID=b5d50dd01e70dcc64c50db3aad8639e7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat
+  importAddress: Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat using Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c950576b86d3e3ca69d6f0c79f2b54a2') in 0.0324241 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e9388684bf3d9c9d19769821b30b2088 DependenciesID=6d292c480e4353a1e1f2d47f5527a245 StaticDependenciesID=7a881f93b1aca677def58fd10eb555d6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/RenderAs2D-Flattening.mat
+  importAddress: Guid(b697f6a938056384e968ccf6527dac83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/RenderAs2D-Flattening.mat using Guid(b697f6a938056384e968ccf6527dac83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '81e1d0e1d28c25f5a63e2f45dcba6fc8') in 0.0308528 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b3164e36058a171af2204685c201d967 DependenciesID=5795dc616db750c03d9ebb57316ebfff StaticDependenciesID=fce2a862b2dffa702ff14ecf04dd92fe 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Mesh2D-Lit-Default.mat
+  importAddress: Guid(9452ae1262a74094f8a68013fbcd1834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Mesh2D-Lit-Default.mat using Guid(9452ae1262a74094f8a68013fbcd1834) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6e7b86111e01105907ea1ce557cb1035') in 0.0254973 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f348c6d723bae5175ac01e54dd615390 DependenciesID=c16195d8a343fe4f8cace758063b5a79 StaticDependenciesID=7e1065973ff1799403be70009b5ec903 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat
+  importAddress: Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat using Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ffed45a8a2c500f7459db3befc15fc32') in 0.2694604 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=12c89df282fd62cda73c1e0c71053fda DependenciesID=6a8010bc4f3484a4ef013a279e54a266 StaticDependenciesID=b95e24a66bfae25bc7e458a85efa17b1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat
+  importAddress: Guid(15d0c3709176029428a0da2f8cecf0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat using Guid(15d0c3709176029428a0da2f8cecf0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '3ca946cd4061eea60650a6b8662a58df') in 0.0363356 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=108035e92aa92438b8762cbecc9a6b8d DependenciesID=7da48495f7a6eba38117d1fe4eb520f2 StaticDependenciesID=ccdcea236cb2f0f60fe52ce4850b3039 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingWireframe.mat
+  importAddress: Guid(9875a245ac49007498213638a307faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingWireframe.mat using Guid(9875a245ac49007498213638a307faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '93c0d70e7c8aaea3733da4fda6b48b8a') in 0.0721595 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c29ff7a6a814d8c511e199fdfeb9c017 DependenciesID=05738d426e757962e4e07e688ca679b4 StaticDependenciesID=90a5c617b36ca5b6aa3e9c8e86690af1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
